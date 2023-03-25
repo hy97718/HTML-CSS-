@@ -46,7 +46,7 @@
     }
     .About-video {
         width: 75%;
-        margin-bottom: 15px;
+        margin-bottom: 16px;
     }
     .About-title {
         width: 75%;
@@ -55,6 +55,18 @@
 
 
 @media (max-width: 767px){
+    .Header {
+        padding-top: 15px;
+    }
+    .header-container {
+        max-width: 100%;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .logo-image {
+        height: 16px;
+        width: auto;
+    }
     .First-View {
         background-image: none;
         padding-top: 0;
@@ -66,17 +78,30 @@
     }
     .FirstView-container {
         margin-top: -45vw;
-        margin-left: auto;
-        margin-right: auto;
+        max-width: none;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .main-contents {
         width: 100%;
+        margin-bottom: 20px;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 36px;
     }
     .main-img {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
-        width: 100%;
+        max-width: 100%;
+    }
+    .appo {
+        width: 27.5%;
+    }
+    .refund {
+        width: 27.5%;
+        margin-right: 0;
     }
     .contents-buttons a:first-child {
         width: 100%;
@@ -90,7 +115,23 @@
     .About-video {
         width: 100%;
     }
+    .About {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
     .About-title {
         width: 100%;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+    .About-title h2 {
+        font-size: 33px;
+        line-height: 1.4px;
+        letter-spacing: 1px;
+    }
+    .About-title p {
+        font-size: 16px;
+        line-height: 21px;
     }
 }
